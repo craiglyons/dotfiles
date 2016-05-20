@@ -1,0 +1,15 @@
+{
+    "^x" = {
+        "u"     = "undo:";
+    };
+
+    "~w" = ("deleteWordBackward:");
+    "^n" = ("moveDown:");
+    "^p" = ("moveUp:");
+    "~f" = ("moveWordRight:");
+    "~F" = ("moveWordForwardAndModifySelection:");
+    "~b" = ("moveWordLeft:");
+    "~B" = ("moveWordBackwardAndModifySelection:");
+    "^ " = ("setMark:");
+    "^g" = ("cancelOperation:");
+}

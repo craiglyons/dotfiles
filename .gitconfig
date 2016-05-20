@@ -1,0 +1,11 @@
+[user]
+	name = Craig Lyons
+	email = craiglyons.dev@gmail.com
+[push]
+	default = simple
+[alias]
+
+
+
+[core]
+	editor = emacs
