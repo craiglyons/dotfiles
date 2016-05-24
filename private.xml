@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Word jump with b and f</name>
+    <identifier>private.word_jump_with_b_f</identifier>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::OPTION_L, KeyCode::CURSOR_LEFT | ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::OPTION_L, KeyCode::CURSOR_RIGHT | ModifierFlag::OPTION_L</autogen>
+  </item>
+</root>
