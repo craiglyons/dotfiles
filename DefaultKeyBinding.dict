@@ -1,7 +1,0 @@
-{
-    "^x" = {
-        "u"     = "undo:";
-    };
-
-    "~w" = ("deleteWordBackward:");
-}
