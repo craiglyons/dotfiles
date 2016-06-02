@@ -91,6 +91,7 @@ alias nyancat_on="echo 'rspec --format NyanCatFormatter' >> ~/.rspec"
 alias nyancat_off="rm ~/.rspec"
 alias psqlhd="psql harrison_metal_development"
 alias gbpbcopy="current_branch | pbcopy"
+gcoid() { git branch --all |grep -i $1 | grep -v remote |xargs git checkout }
 eval "$(rbenv init -)"
 
 export ACK_PAGER="less"
