@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.[6~
-export ZSH=/Users/craiglyons/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export EDITOR=/usr/bin/emacs
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
