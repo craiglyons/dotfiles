@@ -92,10 +92,14 @@ alias nyancat_off="rm ~/.rspec"
 alias psqlhd="psql harrison_metal_development"
 alias gbpbcopy="current_branch | pbcopy"
 gcoid() { git branch --all |grep -i $1 | grep -v remote |xargs git checkout }
-eval "$(rbenv init -)"
 
 export ACK_PAGER="less"
 
 alias annotate_models="annotate --exclude tests,fixtures,factories,serializers"
 
 alias ngrok="ngrok http 3000 -subdomain=cl"
+autoload bashcompinit
+bashcompinit
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
