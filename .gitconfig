@@ -9,3 +9,4 @@
 
 [core]
 	editor = emacs
+	excludesfile = ~/.gitignore_global
