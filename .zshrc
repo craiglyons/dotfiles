@@ -104,3 +104,4 @@ bashcompinit
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
+eval "$(hub alias -s)"
