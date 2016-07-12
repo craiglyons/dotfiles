@@ -92,6 +92,7 @@ alias nyancat_on="echo 'rspec --format NyanCatFormatter' >> ~/.rspec"
 alias nyancat_off="rm ~/.rspec"
 alias psqlhd="psql harrison_metal_development"
 alias gbpbcopy="current_branch | pbcopy"
+alias gcd="git remote show origin | awk '/HEAD branch:/ {print \$3}' | xargs git checkout"
 gcoid() { git branch --all |grep -i $1 | grep -v remote |xargs git checkout }
 
 export ACK_PAGER="less"
