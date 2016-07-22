@@ -99,10 +99,11 @@ export ACK_PAGER="less"
 
 alias annotate_models="annotate --exclude tests,fixtures,factories,serializers"
 
-alias ngrok="ngrok http 3000 -subdomain=cl"
 autoload bashcompinit
 bashcompinit
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
 eval "$(hub alias -s)"
+
+. $HOME/.zshrc.individual
