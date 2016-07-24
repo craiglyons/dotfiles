@@ -1,3 +1,5 @@
+fpath=('/usr/local/share/zsh/site-functions' $fpath)
+
 # Path to your oh-my-zsh installation.[6~
 export ZSH=~/.oh-my-zsh
 export EDITOR=/usr/bin/emacs

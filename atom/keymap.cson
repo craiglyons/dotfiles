@@ -31,12 +31,16 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+'atom-text-editor':
+  'cmd-l': 'unset!'
+'.platform-darwin':
+  'cmd-l': 'go-to-line:toggle'
 
-# '.platform-darwin .workspace .editor:not(.mini)':
-#   'ctrl-s': 'incremental-search:forward'
-#   'ctrl-r': 'incremental-search:backward'
-#
-# '.platform-darwin .workspace .isearch .editor':
-#   'ctrl-s': 'incremental-search:forward'
-#   'ctrl-r': 'incremental-search:backward'
-#   'ctrl-w' : 'incremental-search:slurp'
+'.platform-darwin .workspace .editor:not(.mini)':
+  'ctrl-s': 'incremental-search:forward'
+  'ctrl-r': 'incremental-search:backward'
+
+'.platform-darwin .workspace .isearch .editor':
+  'ctrl-s': 'incremental-search:forward'
+  'ctrl-r': 'incremental-search:backward'
+  'ctrl-w' : 'incremental-search:slurp'
