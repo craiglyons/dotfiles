@@ -11,11 +11,12 @@
     packagesWithKeymapsDisabled: []
   editor:
     fontFamily: "courier new"
-    fontSize: 12
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  "git-plus":
+    splitPane: "Right"
   "incremental-search":
     instantSearch: true
     keepOptionsAfterSearch: false
