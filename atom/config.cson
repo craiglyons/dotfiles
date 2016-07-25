@@ -10,11 +10,14 @@
     ]
     packagesWithKeymapsDisabled: []
   editor:
+    autoIndentOnPaste: false
     fontFamily: "courier new"
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  "git-diff-details":
+    showWordDiffs: false
   "git-plus":
     splitPane: "Right"
   "incremental-search":
