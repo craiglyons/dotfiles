@@ -2,7 +2,7 @@ fpath=('/usr/local/share/zsh/site-functions' $fpath)
 
 # Path to your oh-my-zsh installation.[6~
 export ZSH=~/.oh-my-zsh
-export EDITOR=/usr/bin/emacs
+export EDITOR=/usr/local/bin/atom
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each

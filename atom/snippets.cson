@@ -27,4 +27,13 @@
   'Text Log':
     'prefix': 'tlog'
     'body': 'console.log("*** $1")'
-    
+'.source.ruby':
+  'Variable Log':
+    'prefix': 'vlog'
+    'body': 'puts "*** $1: #{$1.inspect}"'
+  'Text Log':
+    'prefix': 'tlog'
+    'body': 'puts "*** $1"'
+  'Screenshot':
+    'prefix': 'screenshot'
+    'body': 'save_and_open_screenshot'

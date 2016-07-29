@@ -37,10 +37,16 @@
   'cmd-l': 'go-to-line:toggle'
 
 '.platform-darwin .workspace .editor:not(.mini)':
-  'ctrl-s': 'xob-incremental-search:forward'
-  'ctrl-r': 'xob-incremental-search:backward'
+  'ctrl-s': 'incremental-search:forward'
+  'ctrl-r': 'incremental-search:backward'
 
 '.platform-darwin .workspace .xobisearch .editor':
-  'ctrl-s': 'xob-incremental-search:forward'
-  'ctrl-r': 'xob-incremental-search:backward'
-  'ctrl-w' : 'xob-incremental-search:slurp'
+  'ctrl-s': 'incremental-search:forward'
+  'ctrl-r': 'incremental-search:backward'
+  'ctrl-w' : 'incremental-search:slurp'
+
+'body':
+  'ctrl-alt-cmd-j': 'window:reload'
+
+'atom-workspace':
+  'ctrl-x ctrl-o': 'move-panes:move-next'

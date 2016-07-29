@@ -7,6 +7,10 @@
       "jumpy"
       "smalls"
       "quick-jump"
+      "incremental-search"
+      "incremental-search"
+      "incremental-search"
+      "incremental-search"
     ]
     packagesWithKeymapsDisabled: []
   editor:
