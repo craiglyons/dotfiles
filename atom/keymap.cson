@@ -40,7 +40,7 @@
   'ctrl-s': 'incremental-search:forward'
   'ctrl-r': 'incremental-search:backward'
 
-'.platform-darwin .workspace .xobisearch .editor':
+'.platform-darwin .workspace .isearch .editor':
   'ctrl-s': 'incremental-search:forward'
   'ctrl-r': 'incremental-search:backward'
   'ctrl-w' : 'incremental-search:slurp'

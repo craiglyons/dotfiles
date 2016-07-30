@@ -7,10 +7,6 @@
       "jumpy"
       "smalls"
       "quick-jump"
-      "incremental-search"
-      "incremental-search"
-      "incremental-search"
-      "incremental-search"
     ]
     packagesWithKeymapsDisabled: []
   editor:
@@ -27,5 +23,6 @@
   "incremental-search":
     instantSearch: true
     keepOptionsAfterSearch: false
+    landAtPointInsteadOfRange: true
   welcome:
     showOnStartup: false
