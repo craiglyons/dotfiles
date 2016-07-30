@@ -50,3 +50,5 @@
 
 'atom-workspace':
   'ctrl-x ctrl-o': 'move-panes:move-next'
+'.platform-darwin':
+  'ctrl-x right': 'fuzzy-finder:toggle-file-finder'

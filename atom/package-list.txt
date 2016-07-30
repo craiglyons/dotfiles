@@ -8,6 +8,7 @@ keyboard-scroll@0.4.0
 language-elixir@0.15.0
 language-slim@0.5.0
 local-history@3.3.0
+move-panes@0.2.0
 scratch@0.3.1
 smalls@0.2.0
 tree-view-git-status@1.0.2
