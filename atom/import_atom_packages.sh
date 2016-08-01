@@ -1,2 +1,2 @@
 #!/bin/sh
-apm install --packages-file ~/dotfiles/atom/package-list.txt
+apm update && apm install --packages-file ~/dotfiles/atom/package-list.txt
