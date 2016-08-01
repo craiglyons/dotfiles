@@ -24,5 +24,7 @@
     instantSearch: true
     keepOptionsAfterSearch: false
     landAtPointInsteadOfRange: true
+  linter:
+    lintOnFlyInterval: 1000
   welcome:
     showOnStartup: false
