@@ -19,6 +19,7 @@
   "git-diff-details":
     showWordDiffs: false
   "git-plus":
+    openInPane: false
     splitPane: "Right"
   "incremental-search":
     instantSearch: true
