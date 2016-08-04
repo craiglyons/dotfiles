@@ -1,5 +1,9 @@
 "*":
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
   core:
+    automaticallyUpdate: false
     disabledPackages: [
       "emacs-plus"
       "transient-emacs"
@@ -8,7 +12,9 @@
       "smalls"
       "quick-jump"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "bracket-matcher"
+    ]
   editor:
     autoIndentOnPaste: false
     fontFamily: "courier new"
@@ -27,5 +33,7 @@
     landAtPointInsteadOfRange: true
   linter:
     lintOnFlyInterval: 1000
+  "linter-eslint":
+    useGlobalEslint: true
   welcome:
     showOnStartup: false
