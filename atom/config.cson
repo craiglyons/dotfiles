@@ -22,6 +22,8 @@
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
+  fonts:
+    fontFamily: "TeX Gyre Cursor"
   "git-diff-details":
     showWordDiffs: false
   "git-plus":
