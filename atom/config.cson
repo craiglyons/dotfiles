@@ -1,4 +1,10 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "d5e08f02-be27-4794-b0db-f71de0b1b68d"
+    js: {}
+    ruby:
+      indent_size: 2
   "bracket-matcher":
     autocompleteBrackets: false
     autocompleteSmartQuotes: false
@@ -14,16 +20,18 @@
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
+      "git-blame"
     ]
   editor:
     autoIndentOnPaste: false
     fontFamily: "courier new"
+    fontSize: 13
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   fonts:
-    fontFamily: "TeX Gyre Cursor"
+    fontFamily: "Cousine"
   "git-diff-details":
     showWordDiffs: false
   "git-plus":

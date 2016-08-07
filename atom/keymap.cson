@@ -52,3 +52,9 @@
   'ctrl-x ctrl-o': 'move-panes:move-next'
 '.platform-darwin':
   'ctrl-x right': 'fuzzy-finder:toggle-file-finder'
+
+'atom-text-editor':
+  'cmd-alt-l': 'editor:auto-indent'
+
+'atom-text-editor:not([mini])':
+  'ctrl-b': 'unset!'
