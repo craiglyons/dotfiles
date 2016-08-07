@@ -1,10 +1,52 @@
 "*":
   "atom-beautify":
+    apex:
+      disabled: true
+    cfml:
+      disabled: true
+    crystal:
+      disabled: true
+    d:
+      disabled: true
+    fortran:
+      disabled: true
     general:
       _analyticsUserId: "d5e08f02-be27-4794-b0db-f71de0b1b68d"
+    gherkin:
+      disabled: true
     js: {}
+    latex:
+      disabled: true
+    marko:
+      disabled: true
+    ocaml:
+      disabled: true
+    pawn:
+      disabled: true
+    perl:
+      disabled: true
+    puppet:
+      disabled: true
+    python:
+      disabled: true
+    riot:
+      disabled: true
     ruby:
       indent_size: 2
+    spacebars:
+      disabled: true
+    swig:
+      disabled: true
+    tss:
+      disabled: true
+    twig:
+      disabled: true
+    vala:
+      disabled: true
+    visualforce:
+      disabled: true
+    xtemplate:
+      disabled: true
   "bracket-matcher":
     autocompleteBrackets: false
     autocompleteSmartQuotes: false
@@ -14,24 +56,27 @@
       "emacs-plus"
       "transient-emacs"
       "Scratchpad"
-      "jumpy"
-      "smalls"
       "quick-jump"
+      "git-diff-details"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
       "git-blame"
+      "git-time-machine"
     ]
   editor:
     autoIndentOnPaste: false
     fontFamily: "courier new"
-    fontSize: 13
+    fontSize: 12
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   fonts:
     fontFamily: "Cousine"
+  "git-blame":
+    ignoreWhiteSpaceDiffs: true
+  "git-diff": {}
   "git-diff-details":
     showWordDiffs: false
   "git-plus":
@@ -41,9 +86,23 @@
     instantSearch: true
     keepOptionsAfterSearch: false
     landAtPointInsteadOfRange: true
+  "keyboard-scroll":
+    linesToScrollKeydown: 3
+    linesToScrollSingle: 1
   linter:
     lintOnFlyInterval: 1000
   "linter-eslint":
     useGlobalEslint: true
+  minimap:
+    absoluteMode: true
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   welcome:
     showOnStartup: false

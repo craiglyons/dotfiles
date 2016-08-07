@@ -5,8 +5,9 @@
 	default = simple
 [alias]
 
-
-
 [core]
 	editor = emacs
 	excludesfile = ~/.gitignore_global
+
+[diff]
+    tool = openmerge

@@ -54,7 +54,17 @@
   'ctrl-x right': 'fuzzy-finder:toggle-file-finder'
 
 'atom-text-editor':
-  'cmd-alt-l': 'editor:auto-indent'
+  'ctrl-alt-l': 'atom-beautify:beautify-editor'
 
-'atom-text-editor:not([mini])':
+'atom-workspace':
+  'ctrl-alt-cmd-t': 'git-time-machine:toggle'
+
+# Blame
+"atom-text-editor:not([mini])":
   'ctrl-b': 'unset!'
+  'ctrl-alt-cmd-b': 'git-blame:toggle'
+
+# Scroll
+'.platform-darwin atom-workspace atom-text-editor:not(.mini)':
+  'ctrl-alt-n': 'ctrl-dir-scroll:scroll-down'
+  'ctrl-alt-p': 'ctrl-dir-scroll:scroll-up'
