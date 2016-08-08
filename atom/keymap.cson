@@ -30,10 +30,9 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
 'atom-text-editor':
-  'cmd-l': 'unset!'
   'ctrl-x ctrl-o': 'move-panes:move-next'
-  'ctrl-alt-cmd-l': 'atom-beautify:beautify-editor'
   'ctrl-alt-cmd-=': 'bookmarks:view-all'
   'ctrl-alt-cmd-]': 'bookmarks:jump-to-next-bookmark'
   'ctrl-alt-cmd-[': 'bookmarks:jump-to-previous-bookmark'
@@ -44,6 +43,11 @@
 '.platform-darwin .workspace .editor:not(.mini)':
   'ctrl-s': 'incremental-search:forward'
   'ctrl-r': 'incremental-search:backward'
+
+'.platform-darwin .workspace .isearch .editor':
+  'ctrl-s': 'incremental-search:forward'
+  'ctrl-r': 'incremental-search:backward'
+  'ctrl-w' : 'incremental-search:slurp'
 
 '.platform-darwin':
   'cmd-b': 'unset!'
