@@ -12,6 +12,7 @@
       disabled: true
     general:
       _analyticsUserId: "d5e08f02-be27-4794-b0db-f71de0b1b68d"
+      analytics: false
     gherkin:
       disabled: true
     js: {}
@@ -57,7 +58,6 @@
       "transient-emacs"
       "Scratchpad"
       "quick-jump"
-      "git-diff-details"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"

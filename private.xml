@@ -6,4 +6,13 @@
     <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::OPTION_L, KeyCode::CURSOR_LEFT | ModifierFlag::OPTION_L</autogen>
     <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::OPTION_L, KeyCode::CURSOR_RIGHT | ModifierFlag::OPTION_L</autogen>
   </item>
+  <item>
+    <name>Private</name>
+    <item>
+      <name>Disable all settings while you are using Atom.</name>
+      <identifier>ignore_apps.atom</identifier>
+      <only>Atom</only>
+      <autogen>__PassThrough__</autogen>
+    </item>
+  </item>
 </root>

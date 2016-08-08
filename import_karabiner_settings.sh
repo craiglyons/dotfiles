@@ -12,4 +12,6 @@ $cli set option.emacsmode_controlPNBF_ex 1
 /bin/echo -n .
 $cli set private.allow_b_f_with_arrow_keys 1
 /bin/echo -n .
+$cli set ignore_apps.atom 1
+/bin/echo -n .
 /bin/echo
