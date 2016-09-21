@@ -14,5 +14,11 @@
       <only>Atom</only>
       <autogen>__PassThrough__</autogen>
     </item>
+    <item>
+      <name>Disable all settings while you are using Intellij.</name>
+      <identifier>ignore_apps.jetbrains</identifier>
+      <only>IntelliJ, RubyMine</only>
+      <autogen>__PassThrough__</autogen>
+    </item>
   </item>
 </root>

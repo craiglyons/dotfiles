@@ -39,6 +39,7 @@
   'ctrl-alt-cmd-\\': 'bookmarks:toggle-bookmark'
   'ctrl-alt-cmd--': 'bookmarks:clear-bookmarks'
   'ctrl-alt-cmd-t': 'git-time-machine:toggle'
+  'cmd-l': 'unset!'
 
 '.platform-darwin .workspace .editor:not(.mini)':
   'ctrl-s': 'incremental-search:forward'

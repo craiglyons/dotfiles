@@ -15,7 +15,8 @@
       analytics: false
     gherkin:
       disabled: true
-    js: {}
+    js:
+      indent_size: 2
     latex:
       disabled: true
     marko:
@@ -33,6 +34,8 @@
     riot:
       disabled: true
     ruby:
+      indent_size: 2
+    scss:
       indent_size: 2
     spacebars:
       disabled: true
@@ -73,7 +76,7 @@
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   fonts:
-    fontFamily: "Cousine"
+    fontFamily: "Office Code Pro Light"
   "git-blame":
     ignoreWhiteSpaceDiffs: true
   "git-diff": {}
