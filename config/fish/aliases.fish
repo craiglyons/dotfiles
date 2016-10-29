@@ -7,6 +7,7 @@ function grep     ; command grep --color=auto $argv ; end
 
 alias i='iex'
 alias im='iex -S mix'
+alias imps='iex -S mix phoenix.server'
 alias m='mix'
 alias mr='mix run'
 alias mt='mix test'
@@ -20,7 +21,8 @@ alias gaa='git add -A'
 alias gapa='git add --patch'
 alias gb='git branch'
 alias gba='git branch -a'
-alias gco='git checkout -b'
+alias gcb='git checkout -b'
+alias gco='git checkout'
 alias gcmsg="git commit -m"
 alias gcm="git remote show origin | awk '/HEAD branch:/ {print \$3}' | xargs git checkout"
 
@@ -33,7 +35,10 @@ alias gdw='git diff --word-diff'
 alias ggsup="git branch --set-upstream-to=origin/(git branch ^/dev/null | grep \* | sed 's/* //')"
 alias gl='git pull'
 alias glg='git log'
+alias glgp='git log -p'
+alias gm='git merge'
 alias gpr="git pull-request -o"
+alias grbm='git rebase master'
 alias grt='cd (git rev-parse --show-toplevel)'
 alias gs='git status -sb'
 

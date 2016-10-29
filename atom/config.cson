@@ -62,6 +62,8 @@
       "transient-emacs"
       "Scratchpad"
       "quick-jump"
+      "linter-sass-lint"
+      "linter-eslint"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
@@ -97,6 +99,8 @@
     lintOnFlyInterval: 1000
   "linter-eslint":
     useGlobalEslint: true
+  "linter-sass-lint":
+    configFile: "~/dotfiles/atom/linters/.sass-lint.yml"
   minimap:
     absoluteMode: true
     plugins:
