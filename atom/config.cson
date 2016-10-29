@@ -55,6 +55,7 @@
     autocompleteBrackets: false
     autocompleteSmartQuotes: false
   core:
+    allowPendingPaneItems: false
     automaticallyUpdate: false
     disabledPackages: [
       "emacs-plus"

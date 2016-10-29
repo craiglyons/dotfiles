@@ -3,6 +3,7 @@
 	email = craiglyons.dev@gmail.com
 [push]
 	default = simple
+	followTags = true
 [alias]
 
 [core]
