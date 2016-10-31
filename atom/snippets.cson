@@ -23,10 +23,10 @@
 '.source.js, .source.coffee':
   'Variable Log':
     'prefix': 'vlog'
-    'body': 'console.log("*** $1:", $1)'
+    'body': 'console.log(\'*** $1:\', $1)'
   'Text Log':
     'prefix': 'tlog'
-    'body': 'console.log("*** $1")'
+    'body': 'console.log(\'*** $1\')'
 '.source.ruby':
   'Variable Log':
     'prefix': 'vlog'

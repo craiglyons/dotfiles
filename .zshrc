@@ -95,6 +95,8 @@ alias nyancat_off="rm ~/.rspec"
 alias psqlhd="psql harrison_metal_development"
 alias gbpbcopy="current_branch | pbcopy"
 alias gcd="git remote show origin | awk '/HEAD branch:/ {print \$3}' | xargs git checkout"
+alias gapc="ruby ~/.alias_scripts/gapc.rb"
+alias notify="terminal-notifier -message 'terminal operation complete.'"
 gcoid() { git branch --all |grep -i $1 | grep -v remote |xargs git checkout }
 
 export ACK_PAGER="less"

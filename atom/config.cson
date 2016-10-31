@@ -62,8 +62,8 @@
       "transient-emacs"
       "Scratchpad"
       "quick-jump"
-      "linter-sass-lint"
       "linter-eslint"
+      "linter-sass-lint"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
@@ -74,6 +74,7 @@
     autoIndentOnPaste: false
     fontFamily: "courier new"
     fontSize: 12
+    tabLength: 4
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
   "find-and-replace":
@@ -114,3 +115,6 @@
     syncHorizontalScroll: true
   welcome:
     showOnStartup: false
+".gradle.groovy.source":
+  editor:
+    tabLength: 4
