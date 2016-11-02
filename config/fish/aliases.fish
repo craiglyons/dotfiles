@@ -17,12 +17,10 @@ alias mdg='mix deps.get'
 alias mc='mix compile'
 
 alias ga='git add'
-alias gaa='git add -A'
 alias gapa='git add --patch'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gcb='git checkout -b'
-alias gco='git checkout'
 alias gcmsg="git commit -m"
 alias gcm="git remote show origin | awk '/HEAD branch:/ {print \$3}' | xargs git checkout"
 
@@ -32,12 +30,12 @@ alias gdct='git describe --tags `git rev-list --tags --max-count=1`'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
 alias gdw='git diff --word-diff'
 
-alias ggsup="git branch --set-upstream-to=origin/(git branch ^/dev/null | grep \* | sed 's/* //')"
 alias gl='git pull'
 alias glg='git log'
 alias glgp='git log -p'
 alias gm='git merge'
 alias gpr="git pull-request -o"
+alias grbi='git rebase -i'
 alias grbm='git rebase master'
 alias grt='cd (git rev-parse --show-toplevel)'
 alias gs='git status -sb'
