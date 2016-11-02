@@ -18,6 +18,7 @@ alias mc='mix compile'
 
 alias ga='git add'
 alias gapa='git add --patch'
+alias gapc="ruby ~/.alias_scripts/gapc.rb"
 alias gb='git branch'
 alias gba='git branch -a'
 alias gcb='git checkout -b'
