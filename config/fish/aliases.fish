@@ -30,6 +30,7 @@ alias gdca='git diff --cached'
 alias gdct='git describe --tags `git rev-list --tags --max-count=1`'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
 alias gdw='git diff --word-diff'
+alias gfo='git fetch origin'
 
 alias gl='git pull'
 alias glg='git log'
