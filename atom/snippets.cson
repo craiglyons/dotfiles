@@ -40,3 +40,10 @@
   'Save and open page':
     'prefix': 'page'
     'body': 'save_and_open_page'
+'.source.elixir, .text.elixir':
+  'Variable Log':
+    'prefix': 'vlog'
+    'body': 'IO.puts("*** $1"); IO.inspect($1)'
+  'Text Log':
+    'prefix': 'tlog'
+    'body': 'IO.puts("*** $1")'
