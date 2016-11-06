@@ -42,6 +42,10 @@ alias grbm='git rebase master'
 alias grt='cd (git rev-parse --show-toplevel)'
 alias gs='git status -sb'
 
+alias gsta='git stash'
+alias gstp='git stash pop'
+alias gstaa='git stash apply'
+
 alias migrate="be rake db:migrate"
 alias rollback="be rake db:rollback"
 alias testprep="be rake db:test:prepare"

@@ -74,6 +74,7 @@
     autoIndentOnPaste: false
     fontFamily: "courier new"
     fontSize: 12
+    showIndentGuide: true
     tabLength: 4
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
