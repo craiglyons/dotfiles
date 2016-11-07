@@ -36,13 +36,18 @@ alias gl='git pull'
 alias glg='git log'
 alias glgp='git log -p'
 alias gm='git merge'
+alias gp='git push'
 alias gpr="git pull-request -o"
+alias grbc='git rebase --continue'
 alias grbi='git rebase -i'
 alias grbm='git rebase master'
+alias grh='git reset HEAD'
+alias grhh='git reset --hard HEAD'
 alias grt='cd (git rev-parse --show-toplevel)'
 alias gs='git status -sb'
 
 alias gsta='git stash'
+alias gstd='git stash drop'
 alias gstp='git stash pop'
 alias gstaa='git stash apply'
 
