@@ -64,6 +64,7 @@
       "quick-jump"
       "linter-eslint"
       "linter-sass-lint"
+      "fonts"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
@@ -72,9 +73,8 @@
     ]
   editor:
     autoIndentOnPaste: false
-    fontFamily: "courier new"
+    fontFamily: "FiraCode-Light"
     fontSize: 12
-    showIndentGuide: true
     tabLength: 4
   "exception-reporting":
     userId: "e3dbd07e-48d3-3606-ee9d-845288e17b15"
@@ -91,6 +91,7 @@
     openInPane: false
     splitPane: "Right"
   "incremental-search":
+    cancelSearchOnBlur: true
     instantSearch: true
     keepOptionsAfterSearch: false
     landAtPointInsteadOfRange: true
@@ -116,6 +117,15 @@
     syncHorizontalScroll: true
   welcome:
     showOnStartup: false
+".elixir.html.text":
+  editor:
+    tabLength: 4
+".elixir.source":
+  editor:
+    tabLength: 4
+".elixir.text":
+  editor:
+    tabLength: 4
 ".gradle.groovy.source":
   editor:
     tabLength: 4

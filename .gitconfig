@@ -1,6 +1,4 @@
 [user]
-	name = Craig Lyons
-	email = craiglyons.dev@gmail.com
 [push]
 	default = simple
 	followTags = true
@@ -24,3 +22,7 @@
 [mergetool "meld"]
   trustExitCode = true
   cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+[user]
+[user]
+	name = Craig Lyons
+	email = craiglyons.dev@gmail.com

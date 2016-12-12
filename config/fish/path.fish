@@ -1,5 +1,4 @@
-set PATH /usr/local/bin \
-         /usr/bin \
+set PATH ./node_modules/.bin \
+         $PATH \
+         /usr/local/bin \
          /usr/local/heroku/bin \
-         ./node_modules/.bin \
-         $PATH

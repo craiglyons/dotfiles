@@ -5,6 +5,9 @@ function ..... ; cd ../../../.. ; end
 
 function grep     ; command grep --color=auto $argv ; end
 
+alias ll='ls -al'
+alias llrth='ls -altrh'
+
 alias i='iex'
 alias im='iex -S mix'
 alias imps='iex -S mix phoenix.server'
@@ -38,6 +41,7 @@ alias glgp='git log -p'
 alias gm='git merge'
 alias gp='git push'
 alias gpr="git pull-request -o"
+alias grba='git rebase --abort'
 alias grbc='git rebase --continue'
 alias grbi='git rebase -i'
 alias grbm='git rebase master'
@@ -50,6 +54,7 @@ alias gs='git status -sb'
 
 alias gsta='git stash'
 alias gstd='git stash drop'
+alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gstaa='git stash apply'
 
