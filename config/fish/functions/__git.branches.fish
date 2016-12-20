@@ -1,4 +1,4 @@
-function __fish_git_branches
+function __git.branches
     # In some cases, git can end up on no branch - e.g. with a detached head
     # This will result in output like `* (no branch)` or a localized `* (HEAD detached at SHA)`
     # The first `string match -v` filters it out because it's not useful as a branch argument

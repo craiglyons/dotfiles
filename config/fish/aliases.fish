@@ -5,6 +5,8 @@ function ..... ; cd ../../../.. ; end
 
 function grep     ; command grep --color=auto $argv ; end
 
+alias be='bundle exec'
+alias ber='bundle exec rake'
 alias ll='ls -al'
 alias llrth='ls -altrh'
 
@@ -22,13 +24,10 @@ alias mc='mix compile'
 alias ga='git add'
 alias gapa='git add --patch'
 alias gapc="ruby ~/.alias_scripts/gapc.rb"
-alias gb='git branch'
 alias gba='git branch -a'
-alias gcb='git checkout -b'
 alias gcmsg="git commit -m"
 alias gcm="git remote show origin | awk '/HEAD branch:/ {print \$3}' | xargs git checkout"
 
-alias gd='git diff'
 alias gdca='git diff --cached'
 alias gdct='git describe --tags `git rev-list --tags --max-count=1`'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
@@ -38,7 +37,6 @@ alias gfo='git fetch origin'
 alias gl='git pull'
 alias glg='git log'
 alias glgp='git log -p'
-alias gm='git merge'
 alias gp='git push'
 alias gpr="git pull-request -o"
 alias grba='git rebase --abort'
