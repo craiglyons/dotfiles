@@ -64,7 +64,6 @@
       "quick-jump"
       "linter-eslint"
       "linter-sass-lint"
-      "fonts"
     ]
     packagesWithKeymapsDisabled: [
       "bracket-matcher"
@@ -81,7 +80,7 @@
   "find-and-replace":
     scrollToResultOnLiveSearch: true
   fonts:
-    fontFamily: "Office Code Pro Light"
+    fontFamily: "FiraCode Light"
   "git-blame":
     ignoreWhiteSpaceDiffs: true
   "git-diff": {}
