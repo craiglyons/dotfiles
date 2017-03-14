@@ -113,7 +113,10 @@
  '(erc-input-face ((t (:foreground "light goldenrod yellow"))))
  '(erc-my-nick-face ((t (:foreground "firebrick1" :weight bold))))
  '(erc-notice-face ((t (:foreground "pink1"))))
- '(font-lock-function-name-face ((t (:foreground "yellow" :weight normal)))))
+ '(font-lock-function-name-face ((t (:foreground "yellow" :weight normal))))
+ '(sml/folder ((t (:inherit sml/global :background "grey22" :foreground "gray84" :weight normal))))
+ '(sml/position-percentage ((t (:inherit sml/prefix :background "grey40" :foreground "CadetBlue1" :weight normal))))
+ '(sml/vc-edited ((t (:inherit sml/prefix :background "grey40" :foreground "light green")))))
 
 (require 'indent-guide)
 (indent-guide-global-mode)
@@ -163,8 +166,6 @@
       '("emacs - " (buffer-file-name "%f"
                                      (dired-directory dired-directory "%b"))))
 
-(global-set-key (kbd "s-/") 'comment-dwim)
-
 ;; Put autosave files (ie #foo#) and backup files (ie foo~) in ~/.emacs.d/.
 ;; create the autosave dir if necessary, since emacs won't.
 (make-directory "~/.emacs.d/autosaves/" t)
@@ -199,4 +200,7 @@
 (setq powerline-default-separator-dir '(right . left))
 
 (desktop-save-mode 1)
-(desktop-auto-save-timeout 60)
+
+(require 'smart-comment)
+(global-set-key (kbd "s-/") 'smart-comment)
+
