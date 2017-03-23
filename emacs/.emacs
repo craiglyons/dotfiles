@@ -200,6 +200,7 @@
 (setq powerline-default-separator-dir '(right . left))
 
 (desktop-save-mode 1)
+(setq desktop-path '("./"))
 
 (require 'smart-comment)
 (global-set-key (kbd "s-/") 'smart-comment)
