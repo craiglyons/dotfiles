@@ -2,4 +2,4 @@
 .DS_Store
 .tool-versions
 .tool-versions-e
-.emacs.desktop
+.emacs.desktop*

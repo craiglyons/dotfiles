@@ -205,3 +205,5 @@
 (require 'smart-comment)
 (global-set-key (kbd "s-/") 'smart-comment)
 
+(require 're-builder)
+(setq reb-re-syntax 'string)
