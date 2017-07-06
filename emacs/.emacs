@@ -64,7 +64,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (smart-mode-line-powerline-theme multiple-cursors color-theme-modern elixir-yasnippets yasnippet ag grizzl flx-ido magit git indent-guide solarized-theme alchemist slim-mode projectile)))
+    (markdown-mode+ markdown-mode yaml-mode elm-mode smart-mode-line-powerline-theme multiple-cursors color-theme-modern elixir-yasnippets yasnippet ag grizzl flx-ido magit git indent-guide solarized-theme alchemist slim-mode projectile)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(projectile-mode t nil (projectile))
@@ -207,3 +207,6 @@
 
 (require 're-builder)
 (setq reb-re-syntax 'string)
+(put 'upcase-region 'disabled nil)
+
+(setq-default indent-tabs-mode nil)
