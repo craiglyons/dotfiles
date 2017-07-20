@@ -5,16 +5,13 @@
 [alias]
 
 [core]
-	editor = emacs
+	editor = code --wait
 	excludesfile = ~/.gitignore_global
 
 [diff]
-  tool = meld
-[difftool]
-  prompt = false
-[difftool "meld"]
-  trustExitCode = true
-  cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
   tool = meld
 [mergetool]
