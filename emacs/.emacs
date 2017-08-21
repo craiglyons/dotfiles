@@ -64,7 +64,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (markdown-mode+ markdown-mode yaml-mode elm-mode smart-mode-line-powerline-theme multiple-cursors color-theme-modern elixir-yasnippets yasnippet ag grizzl flx-ido magit git indent-guide solarized-theme alchemist slim-mode projectile)))
+    (exec-path-from-shell flycheck-elixir flycheck dumb-jump markdown-mode+ markdown-mode yaml-mode elm-mode smart-mode-line-powerline-theme multiple-cursors color-theme-modern elixir-yasnippets yasnippet ag grizzl flx-ido magit git indent-guide solarized-theme alchemist slim-mode projectile)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(projectile-mode t nil (projectile))
@@ -202,11 +202,37 @@
 (desktop-save-mode 1)
 (setq desktop-path '("./"))
 
-(require 'smart-comment)
-(global-set-key (kbd "s-/") 'smart-comment)
-
 (require 're-builder)
 (setq reb-re-syntax 'string)
 (put 'upcase-region 'disabled nil)
 
 (setq-default indent-tabs-mode nil)
+
+
+;; flycheck
+(require 'flycheck)
+
+;; turn on flychecking globally
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; disable jshint since we prefer eslint checking
+(setq-default flycheck-disabled-checkers
+  (append flycheck-disabled-checkers
+    '(javascript-jshint)))
+
+;; use eslint with web-mode for jsx files
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
+;; customize flycheck temp file prefix
+(setq-default flycheck-temp-prefix ".flycheck")
+
+;; disable json-jsonlist checking for json files
+(setq-default flycheck-disabled-checkers
+  (append flycheck-disabled-checkers
+    '(json-jsonlist)))
+
+;; https://github.com/purcell/exec-path-from-shell
+;; only need exec-path-from-shell on OSX
+;; this hopefully sets up path and other vars better
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
