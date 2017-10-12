@@ -36,6 +36,7 @@ alias gfo='git fetch origin'
 
 alias gl='git pull'
 alias glg='git log'
+alias glgg='git log --graph'
 alias glgp='git log -p'
 alias gp='git push'
 alias gpr="git pull-request -o"
