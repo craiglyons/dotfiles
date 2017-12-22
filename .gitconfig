@@ -8,18 +8,14 @@
 	editor = code --wait
 	excludesfile = ~/.gitignore_global
 
-[diff]
-    tool = default-difftool
-[difftool "default-difftool"]
-    cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
-  tool = meld
+    tool = opendiff
 [mergetool]
   prompt = false
-[mergetool "meld"]
-  trustExitCode = true
-  cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
-[user]
+[diff]
+  tool = opendiff
+[difftool]
+  prompt = false
 [user]
 	name = Craig Lyons
 	email = craiglyons.dev@gmail.com
