@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vlog
+# key: vlog
+# --
+IO.puts("*** $1: "); IO.inspect($1); IO.puts("***")

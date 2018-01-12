@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tlog
+# key: tlog
+# --
+IO.puts("*** $1 ***")

@@ -61,6 +61,7 @@ alias migrate="be rake db:migrate"
 alias rollback="be rake db:rollback"
 alias testprep="be rake db:test:prepare"
 alias sandbox="rails c --sandbox"
+alias idea='open -a "IntelliJ IDEA"'
 
 # Bundler
 alias be="bundle exec"

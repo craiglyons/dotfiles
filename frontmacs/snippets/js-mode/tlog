@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tlog
+# key: tlog
+# --
+console.log("*** $1 ***")

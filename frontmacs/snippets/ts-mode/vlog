@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vlog
+# key: vlog
+# --
+console.log("*** $1: ", $1, "***")

@@ -9,11 +9,11 @@
 	excludesfile = ~/.gitignore_global
 
 [merge]
-    tool = opendiff
+    tool = emacs
 [mergetool]
   prompt = false
 [diff]
-  tool = opendiff
+  tool = emacs
 [difftool]
   prompt = false
 [user]
