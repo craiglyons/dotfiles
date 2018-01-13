@@ -72,3 +72,7 @@ alias bi="bundle install"
 # alias pubkey="pbcopy < ~/.ssh/id_rsa.pub"
 # alias p="cd $PROJECTS"
 # alias tea="tc start 3 --growl --beep"
+
+# Emacs
+alias ec='emacsclient -c -a ""'
+alias killemacs="emacsclient -e '(kill-emacs)'"

@@ -40,5 +40,9 @@
 ;; (require 'which-key)
 ;; (which-key-mode +1)
 
+;; Sticky scrolling
+(global-set-key (kbd "M-p") (lambda () (interactive) (scroll-down 3)))
+(global-set-key (kbd "M-n") (lambda () (interactive) (scroll-up 3)))
+
 (provide 'ui)
 ;;; frontmacs-ui.el ends here

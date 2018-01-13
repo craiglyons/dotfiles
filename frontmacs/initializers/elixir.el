@@ -5,13 +5,14 @@
 
 ;;; Code:
 
-(package-refresh-contents)
+;; (package-refresh-contents)
 
 (unless (package-installed-p 'alchemist)
   (package-install 'alchemist))
 
 (unless (package-installed-p 'elixir-mode)
   (package-install 'elixir-mode))
+(require 'elixir-mode)
 (add-to-list 'elixir-mode-hook 'alchemist-mode)
 
 ;; Looks like someone else already adds `end` when I type `do`, so this is unneccessary,
@@ -28,6 +29,5 @@
 ;;                (set (make-variable-buffer-local 'ruby-end-check-statement-modifiers) nil)
 ;;                (ruby-end-mode +1)))
 
-(require 'elixir-mode)
 (provide 'elixir)
 ;;; elixir.el ends here
