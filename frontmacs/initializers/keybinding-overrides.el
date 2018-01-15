@@ -6,7 +6,8 @@
 ;;; Code:
 
 (global-set-key (kbd "C-s") 'isearch-forward)
-(global-set-key (kbd "C-x u") 'undo)
+
+(global-undo-tree-mode 0)
 
 (defun duplicate-line-down()
   (interactive)
