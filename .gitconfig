@@ -5,7 +5,7 @@
 [alias]
 
 [core]
-	editor = code --wait
+	editor = emacsclient
 	excludesfile = ~/.gitignore_global
 
 [merge]
