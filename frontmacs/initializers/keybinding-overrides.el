@@ -9,18 +9,10 @@
 
 (global-undo-tree-mode 0)
 
-(defun duplicate-line-down()
-  (interactive)
-  (let ((saved-position (point)))
-    (move-beginning-of-line 1)
-    (kill-line)
-    (yank)
-    (newline)
-    (yank)
-    (goto-char saved-position)
-    (next-line 1)
-    )
-  )
+;;; c-s-i/j/k/l for window movement
 
-(global-set-key (kbd "<M-S-down>") 'duplicate-line-down)
+(global-set-key (kbd "<C-s-268632074>") 'windmove-left)
+(global-set-key (kbd "<C-s-268632076>") 'windmove-right)
+(global-set-key (kbd "<C-s-268632073>") 'windmove-up)
+(global-set-key (kbd "<C-s-268632075>") 'windmove-down)
 ;;; keybinding-overrides.el ends here
