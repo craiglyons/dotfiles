@@ -45,6 +45,11 @@
 (global-set-key (kbd "M-n") (lambda () (interactive) (scroll-up 3)))
 
 (setq default-frame-alist
-      '((background-color . "#304f4f")))
+      '(
+        (font . "Hack")
+        (background-color . "Dark Slate Gray")
+        (foreground-color . "Wheat")
+        ))
 (provide 'ui)
-;;; frontmacs-ui.el ends here
+
+;;; ui.el ends here
