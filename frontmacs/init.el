@@ -8,3 +8,4 @@
 
 (load (expand-file-name "init-frontmacs.el" user-emacs-directory))
 (put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
