@@ -45,11 +45,11 @@
 (global-set-key (kbd "M-n") (lambda () (interactive) (scroll-up 3)))
 
 (setq default-frame-alist
-      '(
-        (font . "Hack")
-        (background-color . "Dark Slate Gray")
-        (foreground-color . "Wheat")
-        ))
+      '((font . "-*-Hack-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1")))
+
+(set-foreground-color "Wheat")
+(set-background-color "Dark Slate Gray")
+
 (provide 'ui)
 
 ;;; ui.el ends here
