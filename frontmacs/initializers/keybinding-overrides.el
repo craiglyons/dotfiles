@@ -5,6 +5,8 @@
 
 ;;; Code:
 
+(key-chord-mode 0)
+
 (global-set-key (kbd "C-s") 'isearch-forward)
 
 (global-undo-tree-mode 0)
@@ -19,4 +21,6 @@
 (global-set-key (kbd "C-s-l") 'windmove-right)
 (global-set-key (kbd "C-s-i") 'windmove-up)
 (global-set-key (kbd "C-s-k") 'windmove-down)
+
+(global-set-key (kbd "C-x C-c") 'ignore)
 ;;; keybinding-overrides.el ends here
