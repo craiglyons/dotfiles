@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: llog
+# key: llog
+# --
+IO.inspect(label: "$1")
