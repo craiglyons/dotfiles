@@ -23,4 +23,5 @@
 (global-set-key (kbd "C-s-k") 'windmove-down)
 
 (global-set-key (kbd "C-x C-c") 'ignore)
+(global-set-key (kbd "s-q") 'ignore)
 ;;; keybinding-overrides.el ends here
