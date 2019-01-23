@@ -22,6 +22,18 @@
 (global-set-key (kbd "C-s-i") 'windmove-up)
 (global-set-key (kbd "C-s-k") 'windmove-down)
 
+;; Sticky scrolling
+(global-set-key (kbd "C-s-p") (lambda () (interactive) (scroll-down 3)))
+(global-set-key (kbd "C-s-n") (lambda () (interactive) (scroll-up 3)))
+(global-set-key (kbd "<C-s-268632080>") (lambda () (interactive) (scroll-down 3)))
+(global-set-key (kbd "<C-s-268632078>") (lambda () (interactive) (scroll-up 3)))
+
+
 (global-set-key (kbd "C-x C-c") 'ignore)
 (global-set-key (kbd "s-q") 'ignore)
+
+(global-unset-key (kbd "M-n"))
+(global-unset-key (kbd "M-p"))
+(define-key projectile-mode-map (kbd "M-p") 'projectile-command-map)
+
 ;;; keybinding-overrides.el ends here

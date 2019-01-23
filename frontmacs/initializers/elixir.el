@@ -1,5 +1,4 @@
 ;;; elixir.el --- Dylan's elixir presets
-
 ;;; Commentary:
 ;;; Install Alchemist, Elixir mode, and ruby-end
 
@@ -30,4 +29,5 @@
 ;;                (ruby-end-mode +1)))
 
 (provide 'elixir)
+(provide 'elixir-format)
 ;;; elixir.el ends here
