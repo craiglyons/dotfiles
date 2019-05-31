@@ -41,7 +41,7 @@
 ;; (which-key-mode +1)
 
 (setq default-frame-alist
-      '((font . "Fira Code 8")))
+      '((font . "Fira Code 10")))
 
 (set-foreground-color "Wheat")
 (set-background-color "Dark Slate Gray")
